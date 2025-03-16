@@ -4,6 +4,10 @@ export default defineNuxtConfig({
     target: "static",
     router: {},
 
+    nitro: { // 👈 添加 nitro 配置块
+        preset: 'static' // 👈 显式设置 preset 为 'static'
+    },
+
     app: {
         baseURL: "/",
     },
@@ -14,7 +18,7 @@ export default defineNuxtConfig({
             {
                 rel: "icon",
                 type: "image/png",
-                href: "./public/logo.svg",
+                href: "/logo.svg",
             },
         ],
         charset: "utf-8",
@@ -22,7 +26,7 @@ export default defineNuxtConfig({
             "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
         script: [
             {
-                src: "../public/flexible.js",
+                src: "/flexible.js",
                 type: "text/javascript",
             },
         ],

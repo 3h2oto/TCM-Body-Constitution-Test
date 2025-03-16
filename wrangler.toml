@@ -1,5 +1,5 @@
 name = "tcm-body-assessment"
-pages_build_output_dir = "./.output"
+pages_build_output_dir = "./.output/public"
 # type = "webpack"  # 移除 type
 compatibility_date = "2024-05-01"
 
