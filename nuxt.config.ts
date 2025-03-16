@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     router: {},
 
     app: {
-        baseURL: "/TCM-Body-Assessment/",
+        baseURL: "/",
     },
 
     meta: {
