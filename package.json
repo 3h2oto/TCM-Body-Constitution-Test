@@ -10,15 +10,15 @@
     "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate"
   },
   "devDependencies": {
-    "@css-render/vue3-ssr": "^0.15.9",
-    "@types/node": "^18.16.0",
-    "autoprefixer": "^10.4.4",
-    "nuxt": "^3.4.2",
-    "postcss": "^8.4.12",
-    "postcss-pxtorem": "^6.0.0"
+    "@css-render/vue3-ssr": "^0.15.14",
+    "@types/node": "^18.19.80",
+    "autoprefixer": "^10.4.21",
+    "nuxt": "^3.16.0",
+    "postcss": "^8.5.3",
+    "postcss-pxtorem": "^6.1.0"
   },
   "dependencies": {
-    "echarts": "^5.3.2",
-    "vant": "^3.4.7"
+    "echarts": "^5.6.0",
+    "vant": "^3.6.16"
   }
 }
