@@ -1,14 +1,13 @@
 <template>
-  <div>
-    <NuxtPage />
-  </div>
+    <div>
+        <NuxtPage />
+    </div>
 </template>
 
-<script lang="ts">
-export default defineComponent({
-  mounted() {
-    document.title = "中医体质自测";
-  },
+<script setup>
+useHead({
+    title: "中医体质自测",
+    link: [{ rel: "icon", type: "image/svg+xml", href: "/logo.svg" }],
 });
 </script>
 
@@ -16,11 +15,11 @@ export default defineComponent({
 *,
 html,
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 li {
-  list-style-type: none;
+    list-style-type: none;
 }
 </style>

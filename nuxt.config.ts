@@ -5,7 +5,6 @@ export default defineNuxtConfig({
     router: {},
 
     app: {
-        // baseURL: "/TCM-Body-Constitution-Test/",
         baseURL: "/TCM-Body-Assessment/",
     },
 
@@ -15,7 +14,7 @@ export default defineNuxtConfig({
             {
                 rel: "icon",
                 type: "image/png",
-                href: "../public/logo.svg",
+                href: "./public/logo.svg",
             },
         ],
         charset: "utf-8",

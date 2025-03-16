@@ -7,6 +7,7 @@
                     <div class="sub-title">
                         本测试来自《中医体质分类与判定》国家标准
                     </div>
+                    <div class="sub-title">Made with ❤️ CXH@GDPU</div>
                 </div>
 
                 <div class="sex-box">
