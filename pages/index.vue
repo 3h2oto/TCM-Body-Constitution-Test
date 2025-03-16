@@ -172,11 +172,11 @@
                 </van-tabs>
             </div>
 
-            <div class="howto">
+            <!-- <div class="howto">
                 <span></span>
                 <div class="title">我是{{ result.physical }}，该怎么办？</div>
                 <span></span>
-            </div>
+            </div> -->
 
             <div class="retest" @click="onRetest">重新测试</div>
         </div>
