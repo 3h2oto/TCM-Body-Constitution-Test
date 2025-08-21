@@ -6,7 +6,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #a7d168 0%, #f5e617 100%);
+  /* background: linear-gradient(135deg, #a7d168 0%, #f5e617 100%); */
+  background: blue;
 }
 
 .index .bg:first-of-type {

@@ -90,14 +90,13 @@
             <div class="top" id="resultTop">
                 <div class="center">时时测，身心康健</div>
 
-                <div v-if="share" class="fenxiangtishi" @click="onCloseShare">
-                    <img src="../public/logo.svg" class="fenxiangtishiimg" />
-                    <span
-                        class="fenxianghaoyou"
-                        style="color: rgb(255, 255, 255)"
-                        >分享给好友测一测</span
-                    >
-                </div>
+                <!-- <div v-if="share" class="fenxiangtishi" @click="onCloseShare"> -->
+                <!--     <img src="../public/logo.svg" class="fenxiangtishiimg" /> -->
+                <!--     <span -->
+                <!--         class="fenxianghaoyou" -->
+                <!--         style="color: rgb(255, 255, 255)" -->
+                <!--         >分享给好友测一测</span> -->
+                <!-- </div> -->
             </div>
             <div class="my">
                 <div class="label">你的体质</div>
@@ -191,7 +190,7 @@ import { QUESTION_LIST, RESULT_LIST, TYPE_PHYSIQUE_MAP } from "./data";
 export default defineComponent({
     data() {
         return {
-            share: true,
+            share: false,
             questionDataList: [],
 
             PingheScore: 0,
